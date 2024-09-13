@@ -10,6 +10,13 @@ library(tidyverse)
 ```
 
 
+## Problem 1
 
+```{r penguins}
+
+library(palmerpenguins)
+
+data("penguins", package = "palmerpenguins")
+```
 
 
