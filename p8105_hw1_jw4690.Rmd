@@ -1,0 +1,15 @@
+---
+title: "p8105_hw1_jw4690"
+output: github_document
+date: "2024-09-12"
+author: "Jingxi Wang"
+---
+
+```{r}
+library(tidyverse)
+```
+
+
+
+
+
