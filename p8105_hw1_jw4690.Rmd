@@ -19,4 +19,13 @@ library(palmerpenguins)
 data("penguins", package = "palmerpenguins")
 ```
 
+The key variables are `species`, `island`, `bill_length_mm`, `bill_depth_mm`, `flipper_length_mm`, `body_mass_g`, `sex`, and `year`.
+
+The penguins dataset has `r nrow(penguins)` rows, `r ncol(penguins)` columns.
+
+The mean of the flipper length is `r mean(penguins$flipper_length_mm, na.rm = TRUE)` mm.
+
+
+
+
 
