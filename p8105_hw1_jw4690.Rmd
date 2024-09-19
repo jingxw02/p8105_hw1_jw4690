@@ -41,9 +41,18 @@ p2_df =
   tibble(
     sample_normal_dis = rnorm(10),
     logical_vector = rnorm(10) > 0,
-    character_vector = letters[2:11],
+    character_vector = letters[1:10],
     factor_vector = factor(rep(c("Lv1", "Lv2", "Lv3"), length.out = 10))
   )
 ```
 
+```{r}
+mean(pull(p2_df, var = sample_normal_dis, name = NULL))
+
+mean(pull(p2_df, var = logical_vector, name = NULL))
+
+mean(pull(p2_df, var = character_vector, name = NULL))
+
+mean(pull(p2_df, var = factor_vector, name = NULL))
+```
 
